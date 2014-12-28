@@ -3,22 +3,7 @@ class CommentsController < ApplicationController
 
   respond_to :html
 
-  def index
-    @comments = Comment.all
-    respond_with(@comments)
-  end
-
-  def show
-    respond_with(@comment)
-  end
-
-  def new
-    @comment = Comment.new
-    respond_with(@comment)
-  end
-
-  def edit
-  end
+  
 
   def create
     @comment = Comment.new(comment_params)
