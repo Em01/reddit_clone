@@ -16,11 +16,15 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	background: image-url('rabbit_image.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
 	
-	#background {
-		background-image: url(rabbit.jpg);
-	}
 	
+
 	#logo {
 	font-size: 26px;
 	font-weight: 700;
