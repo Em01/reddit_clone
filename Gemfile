@@ -37,6 +37,8 @@ gem 'carrierwave'
 
 gem 'fog'
 
+gem 'figaro'
+
 group :production do 
   gem 'pg'
   gem 'rails_12factor'
