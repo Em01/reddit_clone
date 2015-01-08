@@ -33,6 +33,8 @@ gem 'acts_as_votable', '~> 0.10.0'
 
 gem 'simple_form'
 
+gem 'fog'
+
 group :production do 
   gem 'pg'
   gem 'rails_12factor'
